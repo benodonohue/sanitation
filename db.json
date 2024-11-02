@@ -1,34 +1,30 @@
-[
 {
-  "posts":[
+  "weekly": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id": 1,
+      "name": "drains at factory entrance"
+    },
+    {
+      "id": 2,
+      "name": "drains in packing room"
+    },
+    {
+      "id": 3,
+      "name": "oil delivery truck parking area"
     }
   ],
-  "comments" : [
+  "posts": [
+    {
+      "id": 0,
+      "title": "First post!",
+      "content": "My first content!"
+    }
+  ],
+  "comments": [
     {
       "id": 0,
       "content": "Wow such content!",
       "username": "zero_cool"
     }
   ]
-},
-{
-    "weekly": [
-        {
-            "id": 1,
-            "name": "drains at factory entrance"
-        },
-        {
-            "id": 2,
-            "name": "drains in packing room"
-        },
-        {
-            "id": 3,
-            "name": "oil delivery truck parking area"
-        }
-    ]
 }
-]
