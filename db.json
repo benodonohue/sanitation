@@ -1,30 +1,31 @@
 {
-  "weekly": [
-    {
-      "id": 1,
-      "name": "drains at factory entrance"
-    },
-    {
-      "id": 2,
-      "name": "drains in packing room"
-    },
-    {
-      "id": 3,
-      "name": "oil delivery truck parking area"
-    }
-  ],
-  "posts": [
-    {
-      "id": 0,
-      "title": "First post!",
-      "content": "My first content!"
-    }
-  ],
-  "comments": [
-    {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
-    }
-  ]
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "weekly": [
+        {
+            "id": 1,
+            "name": "drains at factory entrance"
+        },
+        {
+            "id": 2,
+            "name": "drains in packing room"
+        },
+        {
+            "id": 3,
+            "name": "oil delivery truck parking area"
+        }
+    ],
+    "posts": [
+        {
+            "id": 0,
+            "title": "First post!",
+            "content": "My first content!"
+        }
+    ],
+    "comments": [
+        {
+            "id": 0,
+            "content": "Wow such content!",
+            "username": "zero_cool"
+        }
+    ]
 }
