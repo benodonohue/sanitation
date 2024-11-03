@@ -1,55 +1,65 @@
 {
-  "additional": [
-    {
-      "task": "fresh oil tanks (outside factory) catchments x 3"
-    },
-    {
-      "task": "hose under dryer"
-    },
-    {
-      "task": "overnight oil tanks (inside factory) catchments x 1"
-    },
-    {
-      "task": "qc lab oil tanks"
-    },
-    {
-      "task": "spiral freezer electrical cabinets"
-    },
-    {
-      "task": "spiral freezer troughs"
-    },
-    {
-      "task": "stairs to training room"
-    },
-    {
-      "task": "tunnel freezer electrical cabinets"
-    },
-    {
-      "task": "tunnel freezer troughs"
-    }
-  ],
-  "antifoam": {
-    "cold water": [
+    "additional": [
       {
-        "id": "1",
-        "task": "change 1000L IBC (intermediate bulk container)",
-        "location": "cutting & sorting",
-        "description": ""
-      }
-    ],
-    "hot water": [
-      {
-        "id": "1",
-        "task": "change 1000L IBC (intermediate bulk container)",
-        "location": "cutting & sorting",
-        "description": "FG601"
+        "task": "fresh oil tanks (outside factory) catchments x 3"
       },
       {
-        "id": "1",
-        "task": "change 1000L IBC (intermediate bulk container)",
-        "location": "external factory",
-        "description": "FG601"
+        "task": "hose under dryer"
+      },
+      {
+        "task": "overnight oil tanks (inside factory) catchments x 1"
+      },
+      {
+        "task": "qc lab oil tanks"
+      },
+      {
+        "task": "spiral freezer electrical cabinets"
+      },
+      {
+        "task": "spiral freezer troughs"
+      },
+      {
+        "task": "stairs to training room"
+      },
+      {
+        "task": "tunnel freezer electrical cabinets"
+      },
+      {
+        "task": "tunnel freezer troughs"
       }
-    ]
+    ],
+    "antifoam": {
+      "cold water": [
+        {
+          "id": "1",
+          "task": "change 1000L IBC (intermediate bulk container)",
+          "location": "cutting & sorting",
+          "description": ""
+        }
+      ],
+      "hot water": [
+        {
+          "id": "1",
+          "task": "change 1000L IBC (intermediate bulk container)",
+          "location": "cutting & sorting",
+          "description": "FG601"
+        },
+        {
+          "id": "1",
+          "task": "change 1000L IBC (intermediate bulk container)",
+          "location": "external factory",
+          "description": "FG601"
+        }
+      ],
+      "audit": {
+        "high pressure units": [
+          "fixed",
+          "portable"
+        ],
+        "chemical foaming units": [
+          "fixed",
+          "portable"
+        ]
+      }
+    }
   }
-}
