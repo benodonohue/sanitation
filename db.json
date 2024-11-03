@@ -50,16 +50,16 @@
           "location": "external factory",
           "description": "FG601"
         }
+      ]
+    },
+    "audit": {
+      "high pressure units": [
+        "fixed",
+        "portable"
       ],
-      "audit": {
-        "high pressure units": [
-          "fixed",
-          "portable"
-        ],
-        "chemical foaming units": [
-          "fixed",
-          "portable"
-        ]
-      }
+      "chemical foaming units": [
+        "fixed",
+        "portable"
+      ]
     }
   }
